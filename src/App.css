@@ -1,0 +1,85 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #222; /* Set a dark background color */
+  color: #fff; /* Set text color to white */
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.9); /* Set semi-transparent dark background */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); /* Add a subtle shadow */
+}
+
+h1 {
+  color: #fff; /* Set heading text color to white */
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 60%;
+  border: 1px solid #fff; /* Set input border color to white */
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #333; /* Set input background color to dark gray */
+  color: #fff; /* Set input text color to white */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Set button background color to blue */
+  color: #fff; /* Set button text color to white */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darken button color on hover */
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.book {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #fff; /* Set book border color to white */
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #333; /* Set book background color to dark gray */
+}
+
+.book img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.book h3 {
+  margin-top: 0;
+}
+
+.book p {
+  margin: 5px 0;
+}
+
+.book-details {
+  text-align: left;
+}
